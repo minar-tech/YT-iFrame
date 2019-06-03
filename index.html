@@ -13,29 +13,23 @@
 
 <body>
   <div w3-include-html="header.html"></div>
-  <center>
-    <table>
-      <tr>
-        <td style="vertical-align:top; padding-top:9px">
-          <!-- The <iframe> (and video player) will replace this <div> tag. -->
-          <div id="ytplayer"></div>
-          <div>State: <span id="state"></span></div>
-          <div>Current Time: <span id="cur_time"></span></div>
-          <div>Rounded Time: <span id="round_time"></span></div>
-          <div>Previous Timestamp: <span id="prev_timestamp"></span></div>
-          <div>Next Timestamp: <span id="next_timestamp"></span></div>
-          <div>Timestamps: '0', '1', '23', '48', '71', '96', '119', '142', '165', '190', '213', '236', '262'</div>
-          <p>
-            <strong>Marjan Farsad "Khooneye Ma"(Kotimme)</strong><br />
-            Albumista "Blue Flowers" (2014)<br />
-            Animaatio: Marjan Farsad ja Peenedooz Animation Studio</p>
-        </td>
-        <td style="vertical-align:top">
-          <iframe name="text_iframe" width="620" height="620" frameborder="0" src="./html/0.html"></iframe>
-        </td>
-      </tr>
-    </table>
-  </center>
+  <div style="vertical-align:top; padding-top:9px">
+    <!-- The <iframe> (and video player) will replace this <div> tag. -->
+    <div id="ytplayer"></div>
+    <div>State: <span id="state"></span></div>
+    <div>Current Time: <span id="cur_time"></span></div>
+    <div>Rounded Time: <span id="round_time"></span></div>
+    <div>Previous Timestamp: <span id="prev_timestamp"></span></div>
+    <div>Next Timestamp: <span id="next_timestamp"></span></div>
+    <div>Timestamps: '0', '1', '23', '48', '71', '96', '119', '142', '165', '190', '213', '236', '262'</div>
+    <p>
+      <strong>Marjan Farsad "Khooneye Ma"(Kotimme)</strong><br />
+      Albumista "Blue Flowers" (2014)<br />
+      Animaatio: Marjan Farsad ja Peenedooz Animation Studio</p>
+  </div>
+  <div style="vertical-align:top">
+    <iframe name="text_iframe" width="620" height="620" frameborder="0" src="./html/0.html"></iframe>
+  </div>
   <script>
     w3.includeHTML();
   </script>
