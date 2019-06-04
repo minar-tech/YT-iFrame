@@ -13,7 +13,15 @@
 
 <body>
   <div class="container">
-    <div w3-include-html="header.html"></div>
+    <div class="topnav" id="myTopnav">
+      <a href="/" class="active">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
     <div class="left-pad"></div>
     <div class="video-box">
       <!-- The <iframe> (and video player) will replace this <div> tag. -->
@@ -33,9 +41,6 @@
       <iframe name="text_iframe" width="100%" height="100%" frameborder="0" src="./html/0.html"></iframe>
     </div>
   </div>
-  <script>
-    w3.includeHTML();
-  </script>
   <script>
     function myFunction() {
       var x = document.getElementById("myTopnav");
